@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+
+# IDE setting file
+.idea/
+.vscode/
+
+# etc
+*.log
+*.sqlite3
