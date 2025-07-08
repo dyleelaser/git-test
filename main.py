@@ -1,3 +1,7 @@
+# test_git_test.py
 from src.git_test import hello
 
-hello("Timekeeper")
+def test_hello_prints_correctly(capfd):
+    hello("Testuser")
+    out, err = capfd.readouterr()
+    assert "Hello, Testuser" in out
