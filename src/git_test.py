@@ -9,7 +9,7 @@ def hello(name: str):
     if not isinstance(name, str):
         raise TypeError("name must be a string")
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(f"Hello, {name}! It's [{now}]")
+    print(f"🐧 Greetings, {name}! It's [{now}]")
 
 # This is timetravel time.
 if __name__ == "__main__":
